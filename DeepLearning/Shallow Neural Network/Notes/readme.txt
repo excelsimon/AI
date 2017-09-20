@@ -3,8 +3,10 @@
 加入非线性激励函数后，神经网络就有可能学习到平滑的曲线来分割平面，而不是用复杂的线性组合逼近平滑曲线来分割平面。
 这就是为什么我们要有非线性的激活函数的原因
 
-
-2、神经网络深度可以用电路理论来解释，如果很浅，每一层都需要用很多节点才能实现
+2、 To compute the function using a shallow network circuit, you will need a large network
+ (where we measure size by the number of logic gates in the network),
+ but (ii) To compute it using a deep network circuit, you need only an exponentially smaller network.
+ 神经网络深度可以用电路理论来解释，如果很浅，每一层都需要用很多节点才能实现
 
 N个输入，o(2^n)
 

@@ -24,7 +24,8 @@ with tf.Session() as session:
     session.run(init)
     for i in range(1000):
         session.run(train,feed_dict={x:coefficients})
-    print(session.run(w))    
+    print(session.run(w))
+
 
 
 

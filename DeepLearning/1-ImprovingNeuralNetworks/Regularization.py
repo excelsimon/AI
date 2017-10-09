@@ -102,7 +102,7 @@ predictions_test = predict(test_X, test_Y, parameters)
 """
 
 """
-2 - L2 Regularization
+2 - L2 1-Regularization
 The standard way to avoid overfitting is called L2 regularization. It consists of appropriately modifying your cost function, from:
 J=−1m∑i=1m(y(i)log(a[L](i))+(1−y(i))log(1−a[L](i)))(1)
 (1)J=−1m∑i=1m(y(i)log⁡(a[L](i))+(1−y(i))log⁡(1−a[L](i)))
@@ -440,7 +440,7 @@ model	train accuracy	test accuracy
 Note that regularization hurts training set performance! This is because it limits the ability of the network to overfit to the training set. But since it ultimately gives better test accuracy, it is helping your system.
 Congratulations for finishing this assignment! And also for revolutionizing French football. :-)
 What we want you to remember from this notebook:
-Regularization will help you reduce overfitting.
-Regularization will drive your weights to lower values.
+1-Regularization will help you reduce overfitting.
+1-Regularization will drive your weights to lower values.
 L2 regularization and Dropout are two very effective regularization techniques.
 """

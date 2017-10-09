@@ -1,7 +1,7 @@
 #coding:utf8
 
 """
-Build DeepNeuralNetwork step by step
+Build 3-DeepNeuralNetwork step by step
 """
 import numpy as np
 

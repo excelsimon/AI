@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from DeepNN import *
 """
 Build and apply a deep neural network to supervised learning.
-DeepNeuralNetwork for image classification
+3-DeepNeuralNetwork for image classification
 General methodology
 As usual you will follow the Deep Learning methodology to build the model:
 1. Initialize parameters / Define hyperparameters

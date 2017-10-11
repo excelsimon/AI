@@ -101,7 +101,7 @@ print ("cost = " + str(cost))
 # In[33]:
 
 def one_hot_matrix(labels,C):
-    #axis=1是垂直方向，axis=0水平方向
+    #axis=1是水平方向，axis=0垂直方向
     one_hot_matrix = tf.one_hot(indices=labels,depth=C,axis=0)
     with tf.Session() as session:
         result = session.run(one_hot_matrix)

@@ -102,3 +102,9 @@ ENV/
 
 #IDE
 .idea
+
+#model
+vgg16.npy
+vgg16.tflearn
+Tensorflow_Code/4-vgg-emotion-fine-tuning/webemo_tr/
+Tensorflow_Code/4-vgg-emotion-fine-tuning/webemo_ts/

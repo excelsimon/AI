@@ -102,7 +102,7 @@ ENV/
 
 #IDE
 .idea
-
+.DS_Store
 #model
 vgg16.npy
 vgg16.tflearn

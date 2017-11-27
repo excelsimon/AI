@@ -1,0 +1,2 @@
+从百度网盘下载language_detector.csv到当前目录
+链接：http://pan.baidu.com/s/1c1WWkoC 密码：qf7b

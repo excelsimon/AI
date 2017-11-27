@@ -108,3 +108,13 @@ vgg16.npy
 vgg16.tflearn
 Tensorflow_Code/4-vgg-emotion-fine-tuning/webemo_tr/
 Tensorflow_Code/4-vgg-emotion-fine-tuning/webemo_ts/
+
+#dataset
+language_detector.csv
+.NLP/2-NaiveBayes_N-gram/news_classification/Database
+.DeepLearning/Tensorflow_Code/4-vgg-emotion-fine-tuning/webemo_tr/
+.DeepLearning/Tensorflow_Code/4-vgg-emotion-fine-tuning/webemo_ts/
+
+
+#jupyter notebook checkpoint
+.ipynb_checkpoints
